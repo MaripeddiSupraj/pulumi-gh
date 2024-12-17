@@ -1,0 +1,5 @@
+config:
+  aws:region: us-east-1
+  aws-app:instanceType: t3.micro
+  aws-app:vpcNetworkCidr: 10.1.0.0/16
+  pulumi:template: vm-aws-python
