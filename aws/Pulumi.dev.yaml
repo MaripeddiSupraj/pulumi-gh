@@ -1,0 +1,2 @@
+config:
+  pulumi:template: https://github.com/MaripeddiSupraj/kindhearted-iridium-griffin
