@@ -15,7 +15,7 @@ ami = aws.ec2.get_ami(
     filters=[
         {
             "name": "name",
-            "values": ["amzn2-ami-hvm-*"],
+            "values": ["amzn2-ami-hssvm-*"],
         }
     ],
     owners=["amazon"],
